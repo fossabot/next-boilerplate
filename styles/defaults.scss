@@ -1,0 +1,31 @@
+* {
+    position:relative;
+    margin:0;
+    padding:0;
+    font-family:$content-font-family;
+    font-weight:$content-font-weight;
+    font-size:$content-font-size;
+    text-decoration:none;
+    color:$content-color;
+    cursor:default;
+}
+p, h1, h2, h3, h4, h5, h6, td, th, li, button {
+    user-select:none;
+}
+a, b, i, u, span {
+    font-family:inherit;
+    font-weight:inherit;
+    font-size:inherit;
+    color:inherit;
+    cursor:inherit;
+}
+html, body {
+    height:100vh;
+    overflow:hidden;
+}
+a, button {
+    cursor:pointer;
+}
+b {
+    font-weight:$font-weight-bold;
+}
